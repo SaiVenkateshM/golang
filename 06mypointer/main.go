@@ -10,4 +10,5 @@ func main() {
 	myNumber := 100
 	ptr = &myNumber
 	fmt.Println("Value of pointer is: ", ptr)
+	fmt.Println("Value of pointer dereferenced is: ", *ptr)
 }
